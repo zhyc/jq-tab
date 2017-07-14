@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: #333333;
+}
+.tab{
+	width: 400px;
+	margin: 30px;
+	background: #fafafa;
+}
+.tab_title{
+	height: 35px;
+	line-height: 35px;
+	background: #ccc;
+	
+}
+.tab_title li{
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+.tab_title li a{
+	color: #333;
+	text-decoration: none;
+}
+.tab_title li.active{
+	background-color: #FAFAFA;
+}
+.tab-context{
+	min-height: 300px;
+	position: relative;
+}
+.tab-context .context{
+	padding: 20px;
+	display: none;
+	position: absolute;
+	
+}
+.tab-context .context.active{
+	display: block;
+}
